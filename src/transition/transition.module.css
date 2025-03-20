@@ -1,0 +1,45 @@
+.transitionContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.transitionImage {
+    width: 100%;
+    height: auto;
+    max-height: 100vh;
+    object-fit: cover;
+    transition: opacity 0.6s ease-in-out;
+}
+
+/* Fade effect when not in view */
+.hidden {
+    opacity: 0;
+}
+.imageContainer {
+    width: 100%;
+    max-width: 800px; /* Adjust width as needed */
+    margin: 80px auto; /* Adds spacing above and below */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transition: opacity 0.6s ease-in-out;
+}
+
+.imageContainer img {
+    width: 100%;
+    height: auto;
+    max-height: 500px; /* Ensures the image doesn’t get too large */
+    object-fit: contain; /* Ensures it fits within the bounds */
+}
+
+/* Fade effect on scroll */
+.hidden {
+    opacity: 0;
+}
+

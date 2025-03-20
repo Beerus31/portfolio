@@ -1,0 +1,65 @@
+.projects {
+    padding: 4rem 10%;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 2rem;
+  }
+  
+  .projectList {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .projectCard {
+    background-color: #2a2a72;
+    border-radius: 12px;
+    padding: 1rem;
+    width: 280px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  .projectCard:hover {
+    transform: translateY(-5px);
+  }
+  
+  .projectImage {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .projectContent h3 {
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+  
+  .projectContent p {
+    color: #ccc;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  
+  .downloadButton {
+    background-color: #1d4ed8;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration:none;
+  }
+  
+  .downloadButton:hover {
+    background-color: #2563eb;
+  }
+  
